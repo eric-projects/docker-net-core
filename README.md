@@ -33,10 +33,10 @@ PS E:\My\docker> docker run -i -t --name webapi -p 6002:6001  webapi /bin/sh
 ```
 说明：
 
-    * -it 开启容器shell终端
-    * --name 给容器起别名
-    * -p 主机与容器之间的端口映射
-    * /bin/sh 运行容器后进入的工作目录
+   *  -it 开启容器shell终端
+   *  --name 给容器起别名
+   *  -p 主机与容器之间的端口映射
+   *  /bin/sh 运行容器后进入的工作目录
     
 ## 运行netcore webapi
 
